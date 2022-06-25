@@ -12,6 +12,7 @@ const Footer = ({ showSkills }: { showSkills: boolean }) => {
         <div className="container text-center">
           <h2 className="mb-10">Wanna ask questions?</h2>
 
+          <div>
             <Button href="mailto:support@sixty9unit.tech" icon="fa-solid:envelope">
               Send me an Email
             </Button>
