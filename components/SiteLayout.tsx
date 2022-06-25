@@ -10,9 +10,8 @@ const SiteLayout = ({
   children: ReactNode;
   showSkills?: boolean;
 }) => {
-  const title = "Your Name - Frontend Engineer";
-  const description =
-    "Frontend Engineer with 5+ years experience working on single page applications using React, Next.js, TypeScript.";
+  const title = "Sixty9Unit - Mini Marketplace";
+  const description = "A miniature online market place that provides customers with access to a diverse selection of goods and services.";
 
   return (
     <div className="flex flex-col justify-between h-full">
@@ -21,7 +20,7 @@ const SiteLayout = ({
         <meta name="description" content={description} />
         <link rel="icon" href="/favicon.ico" />
 
-        <meta property="og:url" content="https://yourWebsite.com" />
+        <meta property="og:url" content="https://sixty9unit.tech" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta name="twitter:card" content={description} />
