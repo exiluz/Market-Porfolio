@@ -4,7 +4,7 @@ import { skills } from "./skills";
 const Velzon = {
   title: "Velzon v1.6.0 – Admin & Dashboard Template",
   link: "https://buy.stripe.com/eVa8wAdCvecR3Uk8ww",
-  imageUrl: "https://firebasestorage.googleapis.com/v0/b/sixty9unit-tech.appspot.com/o/velzon-admin-theme-nulled-free-download%20(1).jpg?alt=media&token=227df23c-6a81-4461-a86e-3acbe7f74822",
+  imageUrl: "velzon-admin-theme-nulled-free-download (1).jpg",
   slug: "Velzon-Dashboard",
   description: `
         Velzon is a fully responsive and premium Bootstrap 5 
