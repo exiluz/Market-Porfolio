@@ -41,7 +41,7 @@ const Home: NextPage = () => {
           </div>
 
           <div className="flex justify-center mt-8">
-            <Button href="/projects">See all Products
+            <Button href="/projects">See all Products</Button>
           </div>
         </section>
 
