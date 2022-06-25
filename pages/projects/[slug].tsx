@@ -33,7 +33,7 @@ const ProjectsPage = (props: ProjectsPageProps) => {
   } = project;
   const button = (
     <Button href={link} target="_blank" icon="fa-solid:external-link-alt">
-      See live
+      Buy now
     </Button>
   );
   return (
@@ -104,28 +104,6 @@ const ProjectsPage = (props: ProjectsPageProps) => {
             <></>
           )}
         </div>
-
-        <section className="mt-16">
-          <h2 className="mb-12 text-center">Other Projects</h2>
-          <div className="grid md:grid-cols-3 gap-y-8 md:gap-8">
-            {otherProjects?.map((project) => (
-              <div key={project.slug}>
-                {" "}
-                <Project content={project} />{" "}
-              </div>
-            ))}
-          </div>
-
-          <div className="flex justify-center mt-8">
-            <Button href="/projects">See all projects</Button>
-          </div>
-        </section>
-
-        <section className="mt-20">
-          <h2 className="mb-12 text-center">Browse Projects by Skill</h2>
-
-          <SkillLogos className="max-w-3xl justify-center gap-8 text-3xl md:text-4xl m-auto" />
-        </section>
       </main>
     </SiteLayout>
   );
