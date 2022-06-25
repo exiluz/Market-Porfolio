@@ -56,15 +56,8 @@ const ProjectsPage = (props: ProjectsPageProps) => {
             </div>
           )}
 
-          {skills && (
-            <div className="flex flex-wrap mb-2">
-              {skills.map((s) => (
-                <Skill key={s.name} content={s} />
-              ))}
-            </div>
-          )}
 
-          <div className="space-y-5 py-5">
+          <div className="space-y-3 py-5">
             {description && <p>{description}</p>}
             {body}
           </div>
