@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       <main className="container py-5 lg:py-12">
         <div className="flex w-full justify-between items-center flex-wrap flex-row-reverse md:flex-row mt-8">
           <div className="my-5 text-center md:text-left w-full md:w-10/12">
-            <h1 className="font-bold text-5xl md:text-6xl">Mini Marketplace</h1>
+            <h1 className="font-bold text-5xl md:text-6xl">Marketplace</h1>
             <h2 className="my-3 text-xl sm:text-2xl">Browse Here</h2>
           </div>
         </div>
