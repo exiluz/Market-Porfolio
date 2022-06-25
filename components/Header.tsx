@@ -14,16 +14,8 @@ export const Header = (): ReactElement => {
       url: "/projects",
     },
     {
-      title: "Work Experience",
-      url: "/experience",
-    },
-    {
       title: "Blog",
       url: "/blog",
-    },
-    {
-      title: "your@email.com",
-      url: "mailto:your@email.com",
     },
   ];
 
@@ -33,7 +25,7 @@ export const Header = (): ReactElement => {
         <div className="md:hidden w-full flex justify-between items-center px-5">
           <div>
             <Link href="/" passHref>
-              <a className="text-xl font-semibold">Your Name</a>
+              <a className="text-xl font-semibold">Sixty9Unit</a>
             </Link>
           </div>
           <div className="relative">
