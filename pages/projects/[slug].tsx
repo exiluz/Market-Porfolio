@@ -1,6 +1,5 @@
 import { projects } from "../../content/projects";
 import Skill from "../../components/Skill";
-import Project from "../../components/Project";
 import SiteLayout from "../../components/SiteLayout";
 import Link from "next/link";
 import Carousel from "../../components/Carousel";
@@ -8,7 +7,6 @@ import React from "react";
 import Button from "../../components/Button";
 import Testimonial from "../../components/Testimonial";
 import Image from "next/image";
-import SkillLogos from "../../components/SkillLogos";
 import { GetStaticProps } from "next";
 
 interface ProjectsPageProps {
@@ -29,7 +27,6 @@ const ProjectsPage = (props: ProjectsPageProps) => {
     body,
     links,
     testimonials,
-    otherProjects,
   } = project;
   const button = (
     <Button href={link} target="_blank" icon="fa-solid:external-link-alt">
