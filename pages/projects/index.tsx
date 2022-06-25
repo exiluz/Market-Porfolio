@@ -2,7 +2,6 @@ import { projects } from "../../content/projects";
 import Project from "../../components/Project";
 import React from "react";
 import SiteLayout from "../../components/SiteLayout";
-import SkillsSection from "../../components/SkillsSection";
 
 const ProjectsPage = () => {
   return (
@@ -18,8 +17,6 @@ const ProjectsPage = () => {
             ))}
           </div>
         </div>
-
-        <SkillsSection title="Browse Projects by Skill" />
       </main>
     </SiteLayout>
   );
