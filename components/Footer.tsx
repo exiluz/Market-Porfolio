@@ -10,7 +10,7 @@ const Footer = ({ showSkills }: { showSkills: boolean }) => {
 
       <div className="w-full bg-neutral-800 py-24 text-white">
         <div className="container text-center">
-          <h2 className="mb-10">Having Suggestions?</h2>
+          <h2 className="mb-10">Wanna ask questions?</h2>
 
             <Button href="mailto:support@sixty9unit.tech" icon="fa-solid:envelope">
               Send me an Email
