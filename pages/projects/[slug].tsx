@@ -21,7 +21,6 @@ const ProjectsPage = (props: ProjectsPageProps) => {
     description,
     imageUrl,
     images,
-    skills,
     link,
     body,
     links,
