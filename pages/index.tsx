@@ -1,17 +1,9 @@
 import type { NextPage } from "next";
 import React from "react";
-import Post from "../components/Post";
-import Experience from "../components/Experience";
 import Project from "../components/Project";
 import SiteLayout from "../components/SiteLayout";
-import Socials from "../components/Socials";
-import { experiences } from "../content/experiences";
-import { posts } from "../content/posts";
 import { projects } from "../content/projects";
 import Button from "../components/Button";
-import { services } from "../content/services";
-import Service from "../components/Service";
-import SkillLogos from "../components/SkillLogos";
 
 const Home: NextPage = () => {
   return (
