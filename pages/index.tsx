@@ -15,11 +15,7 @@ const Home: NextPage = () => {
             <h2 className="my-3 text-xl sm:text-2xl">Browse Here</h2>
           </div>
         </div>
-
         <span id="about" className="block mb-8" />
-
-        <Socials />
-
         <section className="my-16">
           <h2 className="mb-8">Featured</h2>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
