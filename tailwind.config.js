@@ -10,12 +10,12 @@ const colors = require("tailwindcss/colors");
 
 // const primary = colors.rose
 // const primary = colors.emerald
-const primary = colors.teal;
+// const primary = colors.teal;
 // const primary = colors.cyan
 // const primary = colors.sky
 // const primary = colors.blue
 // const primary = colors.violet
-// const primary = colors.purple
+const primary = colors.purple
 // const primary = colors.pink
 // const primary = colors.rose
 // const primary = {
@@ -28,7 +28,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: true, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
