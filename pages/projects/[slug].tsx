@@ -49,9 +49,9 @@ const ProjectsPage = (props: ProjectsPageProps) => {
               <Image
                 src={imageUrl}
                 className="mb-5"
-                width="1000"
-                height="750"
-                alt={`${title} screenshot`}
+                width="590"
+                height="300"
+                alt={`${title} Banner`}
               />
             </div>
           )}
