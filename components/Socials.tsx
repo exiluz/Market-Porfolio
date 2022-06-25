@@ -10,34 +10,14 @@ const Socials = (props: {
 
   const links = [
     {
-      icon: "fa6-brands:twitter",
-      link: "https://twitter.com",
-      title: "Twitter",
-    },
-    {
-      icon: "fa6-brands:dev",
-      link: "https://dev.to",
-      title: "Dev.to",
+      icon: "fa6-brands:telegram",
+      link: "https://t.me/sixty9unitdiscussions",
+      title: "Telegram",
     },
     {
       icon: "fa6-brands:github",
-      link: "https://github.com",
+      link: "https://github.com/elyxusph",
       title: "GitHub",
-    },
-    {
-      icon: "fa6-brands:linkedin",
-      link: "https://www.linkedin.com",
-      title: "LinkedIn",
-    },
-    {
-      icon: "fa6-brands:instagram",
-      link: "https://www.instagram.com",
-      title: "Instagram",
-    },
-    {
-      icon: "fa-solid:envelope",
-      link: "mailto:",
-      title: "Email",
     },
   ];
 
