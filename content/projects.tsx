@@ -5,7 +5,7 @@ const Velzon = {
   title: "Velzon v1.6.0 – Admin & Dashboard Template",
   link: "https://buy.stripe.com/eVa8wAdCvecR3Uk8ww",
   imageUrl: "velzon-admin-theme-nulled-free-download (1).jpg",
-  slug: "Velzon-Dashboard",
+  slug: "velzon-dashboard",
   description: `
         Velzon is a fully responsive and premium Bootstrap 5 
         Admin & Dashboard Template built in HTML, React js, 
@@ -19,7 +19,7 @@ const Velzon = {
 };
 
 export const projects: { [key: string]: Project } = {
-  "dancer-tribe": {
+  "velzon-dashboard": {
     ...Velzon,
     otherProjects: [],
   },
